@@ -39,5 +39,3 @@ console.log(JSON.stringify(rotateMatrix([[]])) === JSON.stringify([[]]));
 console.log(JSON.stringify(rotateMatrix([])) === JSON.stringify([]));
 console.log(JSON.stringify(rotateMatrix([[-1, -2], [-3, -4]])) === JSON.stringify([[-3, -1], [-4, -2]]));
 console.log(JSON.stringify(rotateMatrix([[1, 2, 3, 4, 5]])) === JSON.stringify([[1], [2], [3], [4], [5]]));
-
-// Testing
