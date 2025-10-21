@@ -32,7 +32,7 @@ function findMax(nums) {
         let leftE = nums[mid - 1] === undefined ? -Infinity : nums[mid - 1];
         let rightE = nums[mid + 1] === undefined ? -Infinity : nums[mid + 1];
 
-        if (nums[mid] >= firstE && nums[mid] > leftE && nums[mid] > rightE) {
+        if (nums[mid] > leftE && nums[mid] > rightE) {
             return nums[mid];
         } else if (nums[mid] >= firstE) {
             left = mid + 1;
