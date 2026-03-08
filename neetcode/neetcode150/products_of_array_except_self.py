@@ -17,7 +17,7 @@ class Solution:
             suffix.insert(0, curr * peak)
 
             if len(suffix) >= len(nums):
-                break;
+                break
 
         results = []
 
